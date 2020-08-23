@@ -3,7 +3,7 @@
 <launch>
 
     <!-- # fsm -->
-    <node pkg="smach_tutorial" type="user_data.py" name="fsm" output="screen" />
+    <node pkg="my_smach_practice" type="user_data.py" name="fsm" output="screen" />
     <node pkg="smach_viewer" type="smach_viewer.py" name="smach_viewer" output="screen" />
 
 </launch>
